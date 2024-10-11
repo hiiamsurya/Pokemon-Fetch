@@ -1,0 +1,107 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+input {
+  width: 200px;
+  height: 20px;
+}
+
+.one {
+  padding: 5px;
+  background-color: purple;
+  margin: 10px;
+  color: white;
+  width: 300px;
+  height: 25px;
+  font-size: 1.2rem;
+  margin-left: 37%;
+  border-radius: 5px;
+}
+
+.start {
+  margin-top: 50px;
+}
+
+.instruction {
+  background-color: aqua;
+  margin: 10px;
+  margin-bottom: 30px;
+  border-radius: 5px;
+  width: 800px;
+  padding: 5px;
+}
+
+.stats {
+  width: 300px;
+  height: 25px;
+  background-color: yellow;
+  color: black;
+  font-size: 1.2rem;
+  margin-left: 37%;
+  border-radius: 5px;
+}
+
+#sprite {
+  background-color: blue;
+  border-radius: 3px;
+  top: 10%;
+}
+
+#pokemon-info {
+  text-align: center;
+}
+
+#sprite {
+  margin: 10px auto;
+  display: block;
+}
+
+#pokemon-details {
+  margin-top: 10px;
+}
+
+button {
+  background-color: yellow;
+  color: black;
+  border-radius: 5px;
+  font-size: 0.9rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  height: 25px;
+  width: 100px;
+}
+
+@media (max-width: 1000px) {
+  .instruction {
+    background-color: aqua;
+    margin: 10px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    width: 90%; /* or any appropriate percentage */
+    padding: 5px;
+  }
+
+}
+@media (max-width: 700px) {
+  .one {
+    padding: 5px;
+    background-color: purple;
+    margin: 10px;
+    color: white;
+    width: 300px;
+    height: 25px;
+    font-size: 1.2rem;
+    margin-left: 10%;
+    border-radius: 5px;
+  }
+  .stats {
+    width: 300px;
+    height: 25px;
+    background-color: yellow;
+    color: black;
+    font-size: 1.2rem;
+    margin-left: 10%;
+    border-radius: 5px;
+  }  
+  
+}

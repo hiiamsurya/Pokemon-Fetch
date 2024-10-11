@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang = "en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width initial-scale=1.0">
+    <link rel ="stylesheet" href="styles.css">
+    </head>
+    <body>
+      <center>
+
+      <div class="instruction"><h2>Instruction</h2>
+        Upon entering the desired Pokémon's name or ID, the app fetches data from the PokeAPI and displays various details like the Pokémon's image, ID, weight, height, type, and base stats including HP, attack, defense, special attack, special defense, and speed. Perfect for all Pokémon enthusiasts looking to quickly and efficiently find detailed information about any Pokémon. Gotta catch 'em all! 🕵️‍♂️🎮</div>
+      <input id="search-input" for = "search-button" required/>
+      <button id="search-button">Search</button>
+      </center>
+      <img id="sprite" style="display: none;" />
+      <div id="pokemon-info">
+     <div class = "one start">
+  <span>Name</span></div>
+      <div id="pokemon-name" class="stats"> </div> 
+     <div class = "one two">
+  <span>Id</span></div>
+      <div id="pokemon-id" class="stats"></div>
+
+<div class = "one three">
+  <span>Weight</span></div>
+  
+<div id="weight" class="stats"></div>
+
+
+  <div class = "one four">
+    <span>Height</span></div>
+<div id="height" class="stats"></div>
+
+
+<div class="one" ><span>Types: </span></div>
+<div id ="types" class="stats"></div>
+<div class = "one">
+  <span>HP</span></div>
+<div id="hp" class="stats"></div>
+
+<div class = "one">
+  <span>Attack</span></div>
+<div id="attack" class="stats"></div>
+
+<div class = "one">
+  <span>Defense</span></div>
+<div id="defense" class="stats"></div>
+
+<div class = "one">
+  <span>Special Attack</span></div>
+<div id="special-attack" class="stats"></div>
+
+<div class="one"><span>Special Defense</span></div>
+<div id="special-defense" class="stats"></div>
+
+<div class="one"><span>Speed</span></div>
+<div id="speed" class="stats"></div>
+</div>
+
+<script src="script.js"> </script>
+      </body>
+  </html>
